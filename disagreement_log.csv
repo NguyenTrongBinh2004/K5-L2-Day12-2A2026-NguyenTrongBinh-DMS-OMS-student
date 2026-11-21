@@ -1,0 +1,6 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S01_ir.png,frame_meta,light,attr_diff,unknown,night,mine,4.3,"Giữ light = unknown vì bộ SVIRO là ảnh dựng 3D không có thời gian ngày/đêm thật"
+S04_rgb.png,person,seat,attr_diff,rear_right,rear_left,mine,4.4-3,"Giữ rear_right cho người bên trái ảnh vì camera OMS nhìn ngược về phía sau xe"
+D01.png,face13,keypoints,point_order,left_eye_y_gt_right,left_eye_y_lt_right,mine,4.6,"Giữ tọa độ left_eye_* có y lớn hơn right_eye_* theo chiều người lái trên ảnh xoay 90 độ"
+D03.png,face13,occluded,flag_diff,true,false,mine,4.6,"Bật cờ occluded cho các điểm môi và khóe miệng bị chai nước che khuất, không để điểm trơn"
+D05.png,phone,box,extra_in_peer,none,held,mine,4.7,"Không vẽ box phone vì bàn tay đưa lên gần tai nhưng không thấy rõ cạnh, góc hay màn hình điện thoại"

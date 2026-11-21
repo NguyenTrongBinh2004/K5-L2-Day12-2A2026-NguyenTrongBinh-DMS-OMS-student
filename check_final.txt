@@ -1,0 +1,5 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02, S03, S04, S05, S06, S07, S08, D01, D02, D03, D04, D05, D06
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=8, face=8, face13=6, hand=12, infant_seat=6, object=4, person=10, phone=1
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú: Task ban đầu nạp 26 ảnh (bao gồm S09-S10) nên sử dụng cờ --only để kiểm tra đúng 22 ảnh cốt lõi.
