@@ -1,3 +1,7 @@
 frame_id,source,phenomenon,affected_field,effect_on_label
-S01_ir,IR_sim,"(ví dụ) không thấy dây an toàn trên áo tối",seatbelt,"giữ unknown; RGB cùng cảnh cũng không thấy"
-D03,real_IR,"(ví dụ) đốm phản xạ LED trên tròng kính che mắt phải",right_eye_state,"ghi unknown, không ghi closed"
+S01_ir,IR_sim,"Mất thông tin màu sắc và độ tương phản thấp ở vùng tối hàng ghế sau so với ảnh RGB cùng cảnh",seatbelt,"Ghi unknown thay vì đoán do không thấy rõ dây an toàn trên nền tối (không suy từ ảnh RGB)"
+S02_ir,IR_sim,"Ảnh xám mô phỏng làm mất đặc trưng màu sắc và kết cấu bề mặt của đồ vật đặt trên ghế",object.type,"Nhận diện theo hình dáng hoặc chọn other nếu không chắc chắn, không dựa vào màu ở ảnh RGB"
+D01,real_IR,"Ánh sáng NIR tạo bóng tối và phản xạ trên tròng kính cận khiến vùng khe mắt bị khuất",eye_left / eye_right,"Ghi unknown cho mắt không nhìn rõ khe mắt sau tròng kính, không suy đoán open hay closed"
+D02,real_IR,"Gọng kính mảnh kết hợp vùng tối phía dưới khung hình làm khuất mắt trái của tài xế",eye_left,"Ghi unknown cho eye_left thay vì đoán theo mắt còn lại"
+D03,real_IR,"Chai nước nhựa phản xạ sáng dưới đèn NIR và bàn tay trái che khuất vùng miệng cùng nửa mặt dưới",face13 / eye_left,"Bật cờ occluded cho các điểm môi/khóe miệng bị che và ghi eye_left = unknown do chìm trong bóng tối"
+D06,real_IR,"Tài xế cúi gập người làm ánh sáng NIR suy giảm mạnh tạo bóng tối sâu che kín mắt, cằm và bàn tay phải",eye_left / eye_right / face13,"Ghi unknown cho cả hai mắt và bật cờ occluded/outside cho các điểm face13 vùng cằm và miệng bị tối đen"
